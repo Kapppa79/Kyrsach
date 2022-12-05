@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include "gamewindow.h"
 
 
 MainWindow::MainWindow(QWidget *parent) :
@@ -7,7 +8,8 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    this->setWindowTitle("Jetpack Joyribe");
+    gWindow = new gamewindow;
+    //connect(gWindow, &gamewindow::firstWindow, this, &MainWindow::show);//потребуется в будущем
 }
 
 MainWindow::~MainWindow()
@@ -17,16 +19,22 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_Booba_clicked()
 {
-    QApplication::quit();
+    gWindow->show();
+    this->close();
+    //QApplication::quit();
 }
 
 void MainWindow::on_Jaga_clicked()
 {
-    QApplication::quit();
+    gWindow->show();
+    this->close();
+    //QApplication::quit();
 }
 
 void MainWindow::on_Sound_clicked()
 {
     QApplication::quit();
 }
+
+
 

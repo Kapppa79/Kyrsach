@@ -12,7 +12,6 @@
         <file>Resourse/Gadjets/10ф.png</file>
         <file>Resourse/Gadjets/11ф.png</file>
         <file>Resourse/Gadjets/12ф.png</file>
-        <file>Resourse/Gadjets/maxresdefault.jpg</file>
         <file>Resourse/Gadjets/NLO.png</file>
         <file>Resourse/lasers/laser_gor_1.png</file>
         <file>Resourse/lasers/laser_ugol_1.png</file>
@@ -338,5 +337,6 @@
         <file>Resourse/menu/exit.png</file>
         <file>Resourse/menu/icons.ico</file>
         <file>Resourse/menu/icons.png</file>
+        <file>Resourse/Gadjets/bonus.png</file>
     </qresource>
 </RCC>

@@ -24,23 +24,24 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 
-
 CONFIG += resources_big
 
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    game_window.cpp
+    gamewindow.cpp
 
 
 HEADERS += \
         mainwindow.h \
-    mainwindow.h \
-    game_window.h
+    gamewindow.h
+
+
 
 FORMS += \
         mainwindow.ui \
-    game_window.ui
+    gamewindow.ui
+
 
 SUBDIRS += \
     Jetpack_Joyride_.pro
@@ -49,3 +50,5 @@ RESOURCES += \
     resourse.qrc
 
     resouse.qrc \
+
+DISTFILES +=
